@@ -2,7 +2,7 @@ import sbt._
 import Keys._
 
 object Play2AngularInitBuild extends Build {
-  val _name         = "Play2-AngularInit"
+  val _name         = "play-angularinit"
   val _organization = "com.github.rabitarochan"
   val _version      = "0.1"
   val _scalaVersion = "2.11.5"
@@ -27,7 +27,7 @@ object Play2AngularInitBuild extends Build {
     publishArtifact in Test := false,
     pomIncludeRepository := { _ => false },
     pomExtra := (
-      <url>https://github.com/rabitarochan/Play2-AngularInit</url>
+      <url>https://github.com/rabitarochan/play-angularinit</url>
       <licenses>
         <license>
           <name>Apache License, Version 2.0</name>
@@ -36,8 +36,8 @@ object Play2AngularInitBuild extends Build {
         </license>
       </licenses>
       <scm>
-        <url>git@github.com:rabitarochan/Play2-AngularInit.git</url>
-        <connection>scm:git:git@github.com:rabitarochan/Play2-AngularInit.git</connection>
+        <url>git@github.com:rabitarochan/play-angularinit.git</url>
+        <connection>scm:git:git@github.com:rabitarochan/play-angularinit.git</connection>
       </scm>
       <developers>
         <developer>
